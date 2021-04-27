@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for i in range(97,123):
-    print(chr(i), end='')
+string = "abcdefghijklmnopqrstuvwxyz"
+i = 0
+while i <= 25:
+	print("{}".format(string[i]), end='')
+	i += 1
