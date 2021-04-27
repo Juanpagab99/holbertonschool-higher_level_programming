@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 string = "abcdefghijklmnopqrstuvwxyz"
-for i in string:
-	print(i, end='')
+i = 0
+while i <= 25:
+	print("{}".format(string[i]), end='')
+	i += 1
