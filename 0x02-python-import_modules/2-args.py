@@ -9,11 +9,11 @@ if __name__ == "__main__":
         print("{} argument:".format(argu))
         for j in argv:
             if count:
-                print("{} {}".format(count, j))
+                print("{}: {}".format(count, j))
             count += 1
     elif argu > 1:
         print("{} arguments:".format(argu))
         for j in argv:
             if count:
-                print("{} {}".format(count, j))
+                print("{}: {}".format(count, j))
             count += 1
