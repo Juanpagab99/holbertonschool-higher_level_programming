@@ -3,11 +3,7 @@
 class Square():
     '''Defines a square.
         Attributes:
-        sizes: siza of a square
-        error:
-        TypeError - size must be an integer
-        ValueError - size must be >= 0
-        '''
+        size: size a of a square'''
     def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
