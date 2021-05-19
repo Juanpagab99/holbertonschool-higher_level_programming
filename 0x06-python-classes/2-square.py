@@ -1,12 +1,12 @@
 #!/usr/bin/python3
+'''Class Square'''
 class Square():
-    '''Class Square'''
-    def __init__(self, size=0):
-        '''Defines a square.
+    '''Defines a square.
         Attributes:
         sizes: siza of a square
         def __init__(self, size):
         self._size = size'''
+    def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
         elif size < 0:
