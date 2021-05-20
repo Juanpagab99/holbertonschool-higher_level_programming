@@ -3,11 +3,11 @@
 
 
 class Square():
-    '''Defines a square.
+    """
+    Defines a square.
     Attributes:
     sizes: siza of a square
-    def __init__(self, size):
-        self._size = size'''
+    """
 
 
     def __init__(self, size=0):
@@ -17,9 +17,12 @@ class Square():
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+
     '''method to return area of square'''
+
     def area(self):
         return self.__size * self.__size
+
     @property
     def size(self):
         return self.__size
@@ -32,6 +35,7 @@ class Square():
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
     def my_print(self):
         if self.__size == 0:
             print("")
