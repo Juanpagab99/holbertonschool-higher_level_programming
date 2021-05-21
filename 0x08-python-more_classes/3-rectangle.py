@@ -60,4 +60,4 @@ class Rectangle:
                 for j in range(self.__width):
                     aux += '#'
                 aux += '\n'
-            return aux
+            return aux[:-1]
