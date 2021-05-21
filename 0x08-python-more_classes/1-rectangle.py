@@ -2,7 +2,7 @@
 """Class Rectangle"""
 
 
-class Rectangle():
+class Rectangle:
     """
     Defines a rectangle
     Attributes:
