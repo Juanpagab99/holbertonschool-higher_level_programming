@@ -1,4 +1,4 @@
-Module = 0-add_integer
+Module = "0-add_integer.py"
 ====================
 using add integer
 ====================
