@@ -1,0 +1,13 @@
+Module = "5-text_identation.py"
+===========================
+using text_identation
+===========================
+
+Import text_identation function from "5-text_identation.py":
+		>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Large number:
+		>>> text_indentation(32342342342342224234234)
+		Traceback (most recent call last):
+		...
+		TypeError: text must be a string
