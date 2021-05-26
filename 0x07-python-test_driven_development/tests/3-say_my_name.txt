@@ -1,0 +1,29 @@
+Module = "3-say_my_name.py"
+=========================
+using say_my_name
+=========================
+
+Import say_my_name function from "3-say_my_name.py":
+		>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Two regular strings:
+		>>> say_my_name("Sportacus", "Colorado")
+		My name is Sportacus Colorado
+
+One number, one string (a):
+		>>> say_my_name(5, "Colorado")
+		Traceback (most recent call last):
+		...
+		TypeError: first_name must be a string
+
+A list as argument:
+		>>> say_my_name([1, 2, 3, 4], "Colorado")
+		Traceback (most recent call last):
+		...
+		TypeError: first_name must be a string
+
+A tupple as argument:
+		>>> say_my_name((1, 2, 3, 4), "Colorado")
+		Traceback (most recent call last):
+		...
+		TypeError: first_name must be a string
