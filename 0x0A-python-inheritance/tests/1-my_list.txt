@@ -1,6 +1,9 @@
 Importing
 >>> MyList = __import__('1-my_list').MyList
 
+Test
+>>> my_list = MyList()
+
 Module docstring:
 >>> x = __import__("1-my_list").__doc__
 >>> len(x) > 1
@@ -15,3 +18,25 @@ Method:
 >>> z = __import__("1-my_list").MyList.print_sorted.__doc__
 >>> len(z) > 1
 True
+
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> MyList.print_sorted(my_list)
+[1, 2, 3, 4, 5]
+
+Test an empty list
+>>> my_list = []
+>>> MyList.print_sorted(my_list)
+[]
+
+Test negative number
+>>> my_list.append(-6)
+>>> my_list.append(4)
+>>> my_list.append(-2)
+>>> my_list.append(3)
+>>> my_list.append(-5)
+>>> MyList.print_sorted(my_list)
+[-6, -5, -2, 3, 4]
