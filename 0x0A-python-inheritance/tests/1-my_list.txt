@@ -1,0 +1,7 @@
+Module = "1-my_list.py"
+=========================
+using print_sorted
+=========================
+
+Import say_my_name function from "3-say_my_name.py":
+		>>> MyList = __import__('1-my_list').MyList
