@@ -5,7 +5,6 @@
 def read_file(filename=""):
     """ with function to
     open and close .txt """
-    with open(filename, 'r') as f:
-        for i in f:
-            print(i, end="")
-        print("")
+    with open(filename, 'r', encoding = "utf-8") as f:
+        lines = f.read()
+        print(lines)
