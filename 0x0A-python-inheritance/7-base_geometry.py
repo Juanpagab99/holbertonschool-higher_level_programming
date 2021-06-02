@@ -9,6 +9,7 @@ class BaseGeometry:
     def area(self):
         """ Raise and exception """
         raise Exception("area() is not implemented")
+
     def integer_validator(self, name, value):
         """ verify value """
         if type(value) != int:
