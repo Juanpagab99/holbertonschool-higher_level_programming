@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-""" This module contains
-the Base Class """
+"""
+This module contains
+the Base Class
+"""
 import json
 
 
