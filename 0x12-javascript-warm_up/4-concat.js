@@ -1,2 +1,3 @@
 #!/usr/bin/node
-console.log(process.argv[2] + ' is ' + process.argv[3]);
+const phrase = ' is '
+console.log(process.argv[2] + phrase + process.argv[3]);
