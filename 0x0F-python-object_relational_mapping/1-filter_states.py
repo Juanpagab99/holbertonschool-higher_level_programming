@@ -13,5 +13,3 @@ if __name__ == "__main__":
     for row in r:
         if row[1][0] == "N":
             print(row)
-    cursor.close()
-    db.close()
